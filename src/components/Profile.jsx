@@ -31,6 +31,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
         </div>);
 };
 
+// Аля валідатор пропсів
 Profile.propTypes = {
   username: PropTypes.string.isRequired,
   tag: PropTypes.string.isRequired,
