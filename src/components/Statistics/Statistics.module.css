@@ -6,7 +6,6 @@
   border-radius: 5px;
   max-width: 300px;
   margin: 0 auto 70px auto;
-  padding-top: 24px;
   gap: 24px;
 }
 
@@ -15,6 +14,7 @@
   font-weight: bold;
   margin-bottom: 5px;
   color: #666;
+  padding-top: 24px;
 }
 
 .stat_list {
