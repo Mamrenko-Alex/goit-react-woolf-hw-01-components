@@ -1,12 +1,11 @@
 import css from './FriendsList.module.css'
 
-export const FriendsListItem = ({ friends }) => {
+export const FriendsListItem = ({ avatar, name, isOnline }) => {
     return (
-    friends.map(({ id, avatar, name, isOnline }) => (
-        <li key={id}>
+        <li>
             <span className={isOnline ? css.online : css.offline}></span>
             <img className={css.user_photo} src={avatar} alt={name} />
             <p className={css.user_name}>{name}</p>
         </li>
-    )))
+    )
 }
